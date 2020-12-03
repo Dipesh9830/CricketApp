@@ -1,0 +1,450 @@
+<!-- Add icon library -->
+<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="card">
+  <div *ngFor="let player of players">
+  <img src="../../../assets/dhoni.jpg" alt="John" style="width:100%">
+  <h2 style="font-size: 20pt;" itemprop="title">{{player.name}}</h2>
+      <h4><p></p>{{player.Age}}</h4>
+      <h4><p> </p>{{player.Born}}</h4>
+      <h4>{{player.Role}}</h4>
+      <h4>{{player.Batting}}</h4>
+      <h4>{{player.Bowling}}</h4>
+
+ 
+  <p><button>Contact</button></p>
+</div> -->
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="../../../assets/Images/dhoni.jpg" alt="Avatar" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+    <h2>   "Mahendra Singh Dhoni",</h2>
+   <p>"Age" : "36 years 113 days",
+        <br>
+     "Born" : "July 7, 1981, Ranchi, Bihar (now Jharkhand)",
+     <br>
+     "Role" : "Wicketkeeper batsman",
+     <br>
+     "Bowling " : "Right-arm medium",
+     <br>
+     "Batting " : "Right-hand bat",</p>
+    </div>
+  </div>
+</div>
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="../../../assets/Images/hardik.jpg" alt="Avatar" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h2>"Hardik Pandya",</h2>
+      <p>  "Age" : "27 years",
+        <br>
+       "Born" : "Oct 11, 1993, Choryasi, Gujarat",
+       <br>
+       "Role" : "Wicketkeeper batsman",
+       <br>
+       "Bowling " : "Right-arm medium",
+       <br>
+       "Batting " : "Right-hand bat",
+       <br>
+       </p>
+    </div>
+  </div>
+</div>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="../../../assets/Images/virat.jpg" alt="Avatar" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+    <h2>   " Virat Kohli ",</h2>
+       <p>  "Age" : "32 years 113 days",
+         <br>
+        "Born" : "5 November 1988, Delhi, (now Mumbai)",
+        <br>
+        "Role" : "Captain batsman",
+        <br>
+        "Bowling " : "Right-arm medium",
+        <br>
+        "Batting " : "Right-hand bat",
+        <br>
+         </p>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="container1">
+  
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="../../../assets/Images/yuzi.jpg" alt="Avatar" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+     <h2> "Yuzvendra Singh Chahal",</h2>
+    <p>  "Age" : "age 30 years, 
+      <br>
+     "Born" : "23 July 1990, Jhind (now Haryana)",
+     <br>
+     "Role" : "Wicketkeeper bowler",
+     <br>
+     "Bowling " : "Right-arm medium",
+     <br>
+     "Batting " : "Right-hand bat" </p>
+    </div>
+  </div>
+</div>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="../../../assets/Images/Jasprit.jpg" alt="Avatar" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h2>"Jasprit Jasbirsingh Bumrah"</h2>
+      <p>
+        Age : "36 years 113 days",
+        <br>
+        Born : "6 December 1993, Bihar (now Punjab)",
+        <br>
+        Role : "Fast-Bowler",
+        <br>
+        Bowling  : "Right-handed"
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="../../../assets/Images/Mohammad.jpg" alt="Avatar" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h2>"Mohammed Shami Ahmed"</h2> 
+      "Age" : "30 years",
+      <br>
+        "Born" : "3 September 1990, Bihar (now Amroha)",
+        <br>
+        "Role" : "Pacer batsman",
+        <br>
+        "Bowling " : "Right-arm fast",
+        <br>
+        "Batting " : "Right-hand bat"
+      
+    </div>
+  </div>
+</div>
+
+</div>
+<div class="container2">
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="../../../assets/Images/ravindra-jadeja.webp" alt="Avatar" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h2>Ravindra Jadeja</h2> 
+      <p>"Age" : "31 years",
+        <br>
+          "Born" : Dec 06, 1988 
+          <br>
+          "Role" : "Bowling Allrounder",
+          <br>
+          "Bowling " : "Left Handed Bat",
+          <br>
+          "Batting " : "Left-arm orthodox"</p>
+    </div>
+  </div>
+</div>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="../../../assets/Images/Rahul.jpg" alt="Avatar" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h2>Kl Rahul</h2> 
+      <p>"Age" : "28 years",
+        <br>
+          "Born" : Apr 18, 1992 
+          <br>
+          "Role" : "WK-Batsman",
+          <br>
+          "Bowling " : "Right Handed Bat",
+          <br>
+          "Batting " : "Left-arm orthodox"</p>
+    </div>
+    </div>
+  </div>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="../../../assets/Images/Iyer.jpg" alt="Avatar" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h2>Shreyas Iyer</h2>
+      <p>"Age" : "28 years",
+        <br>
+          "Born" : Apr 18, 1992 
+          <br>
+          "Role" : "WK-Batsman",
+          <br>
+          "Bowling " : "Right Handed Bat",
+          <br>
+          "Batting " : "Right-arm orthodox"</p>
+    </div>
+  </div>
+</div>
+</div>
+</body>
+</html>
+
+
+
+<!--
+
+<!DOCTYPE html>
+<html ng-app="tut">
+<head>
+  <script type="text/javascript">
+  var app = angular.module("tut",[]);
+  app.controller("myCtrl",function($scope,$http){
+    $http.get('players.json')
+    .then(function(response){
+      $scope.players=response.data
+    });
+  });
+
+  </script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  
+}
+
+.flip-card-front {
+  background-color: #bbb;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+</style>
+</head>
+
+<body>
+
+  <div ng-controller="myCtrl" class="container">
+  
+    <router-outlet></router-outlet>
+ <div *ngFor="let player of players">
+  <H2 style="position:relative;">Top Batsmen</H2>
+<div class="flip-card">
+  
+  <div class="flip-card-inner">
+  
+    <div ng-repeat = "demo" class="flip-card-front">
+      
+      <img ng-src="../../../assets/dhoni.jpg" style="width:300px;height:300px;">
+  
+    </div>
+    <div class="flip-card-back">
+    
+      <h2 style="font-size: 20pt;" itemprop="title">{{player.name}}</h2>
+      <h4><p></p>{{player.Age}}</h4>
+      <h4><p> </p>{{player.Born}}</h4>
+      <h4>{{player.Role}}</h4>
+      <h4>{{player.Batting}}</h4>
+      <h4>{{player.Bowling}}</h4>
+
+      
+      
+      
+    </div>
+  </div>
+</div>
+</div>
+  </div>
+  <div class="container1">
+  
+    <div *ngFor="let bowler of bowlers">
+     <H2 style="position:relative;">Top Batsmen</H2>
+   <div class="flip-card">
+     
+     <div class="flip-card-inner">
+     
+       <div class="flip-card-front">
+        
+         
+       </div>
+       <div class="flip-card-back">
+       
+         <h2 style="font-size: 20pt;" itemprop="title">{{bowler.name}}</h2>
+         <h4><p>Age</p>{{bowler.Age}}</h4>
+         <h4><p>DOB</p>{{bowler.Born}}</h4>
+         <h4>{{bowler.Role}}</h4>
+         <h4>{{bowler.Batting}}</h4>
+         <h4>{{bowler.Bowling}}</h4>
+       </div>
+     </div>
+   </div>
+   </div>
+ 
+     </div>
+     <div class="container2">
+  
+      <div *ngFor="let bowler of bowlers">
+       <H2 style="position:relative;">Top Batsmen</H2>
+     <div class="flip-card">
+       
+       <div class="flip-card-inner">
+       
+         <div class="flip-card-front">
+         
+           
+         </div>
+         <div class="flip-card-back">
+         
+           <h2 style="font-size: 20pt;" itemprop="title">{{bowler.name}}</h2>
+           <h4><p></p>{{bowler.Age}}</h4>
+           <h4><p></p>{{bowler.Born}}</h4>
+           <h4>{{bowler.Role}}</h4>
+           <h4>{{bowler.Batting}}</h4>
+           <h4>{{bowler.Bowling}}</h4>
+         </div>
+       </div>
+     </div>
+     </div>
+   
+       </div>
+  
+    </body>
+</html>
+
+
+
+
+
+
+
+<!--<div class="container">
+  <div class="row">
+   
+      <router-outlet></router-outlet>
+    
+     <div class="col-xs-12 row-lg-6" itemscope>
+       <div *ngFor="let player of players">
+         <div class="well" style="min-height: 200px; max-height: 200px; overflow: hidden;">
+         <h2 style="font-size: 20pt;" itemprop="title">{{player.name}}</h2>
+         <h4>{{player.Age}}</h4>
+         <h4>{{player.Born}}</h4>
+         <h4>{{player.Role}}</h4>
+         <h4>{{player.Batting}}</h4>
+         <h4>{{player.Bowling}}</h4>
+         
+     </div>  
+     <div class="col-xs-12 col-sm-4">
+    
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+         </div>
+    
+           </div>
+          </div> -->
+        
+   

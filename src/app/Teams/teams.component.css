@@ -1,0 +1,428 @@
+.container1{
+height: 300px;
+}
+.container{
+  margin-top: -500px;
+  width:100%;
+    height: auto;
+    /*background:#ffffb3;*/
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    flex-direction:row;
+  
+  }
+  .container2{
+  width:100%;
+    height: auto;
+    /*background:#ffffb3;*/
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+    flex-direction:row;
+  
+  }
+
+  .container3{
+    width:100%;
+      height: auto;
+      /*background:#ffffb3;*/
+      display:flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+     
+      flex-direction:row;
+    
+    }
+  .card{
+  position:relative;
+  width: 38rem;
+  height:30rem;
+  background-size: cover;
+  background-color: black;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpG0JqIiVyKOGjWbc8LqZd_gnM4uuIqR2mWw&usqp=CAU");
+  border-radius:20px;
+  background-position:center center;
+  overflow:hidden;
+  box-shadow: rgba(0,0,0,0.22) 0px 15px 12px,rgba(0,0,0,0.3) 0px 19px 38px;
+  
+  }
+  .card1{
+  position:relative;
+  width: 38rem;
+  height:30rem;
+  background-size: cover;
+  background-color: black;
+  background-image: url("https://www.insidesport.co/wp-content/uploads/2020/03/7ihiRStUn1-1.jpg");
+  border-radius:20px;
+  background-position:center center;
+  overflow:hidden;
+  box-shadow: rgba(0,0,0,0.22) 0px 15px 12px,rgba(0,0,0,0.3) 0px 19px 38px;
+  
+  }
+  
+  .card2{
+  position:relative;
+  width: 38rem;
+  height:30rem;
+  background-size: cover;
+  background-color: black;
+  background-image: url("https://i.pinimg.com/originals/85/52/f8/8552f811e95b998d9505c43a9828c6d6.jpg");
+  border-radius:20px;
+  background-position:center center;
+  overflow:hidden;
+  box-shadow: rgba(0,0,0,0.22) 0px 15px 12px,rgba(0,0,0,0.3) 0px 19px 38px;
+  
+  }
+  .card3{
+    position:relative;
+    width: 38rem;
+    height:30rem;
+    background-size: cover;
+    background-color: black;
+    background-image: url("https://static.toiimg.com/photo/msid-72902421/72902421.jpg");
+    border-radius:20px;
+    background-position:center center;
+    overflow:hidden;
+    box-shadow: rgba(0,0,0,0.22) 0px 15px 12px,rgba(0,0,0,0.3) 0px 19px 38px;
+    
+    }
+    .card4{
+      position:relative;
+      width: 38rem;
+      height:30rem;
+      background-size: cover;
+      background-color: black;
+      background-image: url("https://yt3.ggpht.com/ytc/AAUvwniFkX-XIpOJVw-rfWmxw-8m0xDuEg26gQhh05tKYw=s900-c-k-c0x00ffffff-no-rj");
+      border-radius:20px;
+      background-position:center center;
+      overflow:hidden;
+      box-shadow: rgba(0,0,0,0.22) 0px 15px 12px,rgba(0,0,0,0.3) 0px 19px 38px;
+      
+      }
+      .card5{
+        position:relative;
+        width: 38rem;
+        height:30rem;
+        background-size: cover;
+        background-color: black;
+        background-image: url("https://static.toiimg.com/photo/msid-72902745/72902745.jpg");
+        border-radius:20px;
+        background-position:center center;
+        overflow:hidden;
+        box-shadow: rgba(0,0,0,0.22) 0px 15px 12px,rgba(0,0,0,0.3) 0px 19px 38px;
+        
+        }
+        .card6{
+          position:relative;
+          width: 38rem;
+          height:30rem;
+          background-size: cover;
+          background-color: black;
+          background-image: url("https://cdn5.newsnationtv.com/images/2020/09/14/royal-rajasthan-logo-51.jpg");
+          border-radius:20px;
+          background-position:center center;
+          overflow:hidden;
+          box-shadow: rgba(0,0,0,0.22) 0px 15px 12px,rgba(0,0,0,0.3) 0px 19px 38px;
+          
+          }
+         
+            .card7{
+              position:relative;
+              width: 38rem;
+              height:30rem;
+              background-size: cover;
+              background-color: black;
+              background-image: url("https://www.greenteam92.com/wp-content/uploads/2020/09/delhi-capitals.jpeg");
+              border-radius:20px;
+              background-position:center center;
+              overflow:hidden;
+              box-shadow: rgba(0,0,0,0.22) 0px 15px 12px,rgba(0,0,0,0.3) 0px 19px 38px;
+              
+              }
+              .card8{
+                position:relative;
+                width: 38rem;
+                height:30rem;
+                background-size: cover;
+                background-color: black;
+                background-image: url("https://www.india.com/wp-content/uploads/2017/02/gl.jpg");
+                border-radius:20px;
+                background-position:center center;
+                overflow:hidden;
+                box-shadow: rgba(0,0,0,0.22) 0px 15px 12px,rgba(0,0,0,0.3) 0px 19px 38px;
+                
+                }
+    
+  
+  
+  .card__inner{
+  background-color: rgba(0,0,0,0.9);
+  color:#fff;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  z-index:1;
+  opacity:0;
+  padding:2rem 1.3rem 2rem 2rem;
+  transition:all 0.4s ease 0s;
+  }
+  .card__inner1{
+  background-color: rgba(0,0,0,0.9);
+  color:#fff;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  z-index:1;
+  opacity:0;
+  padding:2rem 1.3rem 2rem 2rem;
+  transition:all 0.4s ease 0s;
+  }
+  .card__inner2{
+  background-color: rgba(0,0,0,0.9);
+  color:#fff;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  z-index:1;
+  opacity:0;
+  padding:2rem 1.3rem 2rem 2rem;
+  transition:all 0.4s ease 0s;
+  }
+  
+  .card:hover .card__inner{
+  opacity:1;
+  
+  }
+  
+  .card__inner p{
+  overflow-y:scroll;
+  height:87%;
+  padding-right: 1rem;
+  margin-top:1.5rem;
+  }
+  
+  ::-webkit-scrollbar{
+  
+  width:0.3rem;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+  background-color:#fff;
+  border-radius:50px;
+  }
+  .card1:hover .card__inner1{
+  opacity:1;
+  
+  }
+  
+  .card__inner1 p{
+  overflow-y:scroll;
+  height:87%;
+  padding-right: 1rem;
+  margin-top:1.5rem;
+  }
+  
+  ::-webkit-scrollbar{
+  
+  width:0.3rem;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+  background-color:#fff;
+  border-radius:50px;
+  }
+  .card2:hover .card__inner2{
+  opacity:1;
+  
+  }
+  
+  .card__inner2 p{
+  overflow-y:scroll;
+  height:87%;
+  padding-right: 1rem;
+  margin-top:1.5rem;
+  }
+  
+  ::-webkit-scrollbar{
+  
+  width:0.3rem;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+  background-color:#fff;
+  border-radius:50px;
+  }
+  .card__inner4{
+    background-color: rgba(0,0,0,0.9);
+    color:#fff;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    z-index:1;
+    opacity:0;
+    padding:2rem 1.3rem 2rem 2rem;
+    transition:all 0.4s ease 0s;
+    }
+    
+  .card4:hover .card__inner4{
+    opacity:1;
+    
+    }
+    .card3:hover .card__inner3{
+      opacity:1;
+      
+      }
+    
+    .card__inner4 p{
+    overflow-y:scroll;
+    height:87%;
+    padding-right: 1rem;
+    margin-top:1.5rem;
+    }
+
+    .card__inner3{
+      background-color: rgba(0,0,0,0.9);
+      color:#fff;
+      position:absolute;
+      top:0;
+      bottom:0;
+      left:0;
+      right:0;
+      z-index:1;
+      opacity:0;
+      padding:2rem 1.3rem 2rem 2rem;
+      transition:all 0.4s ease 0s;
+      }
+      
+    .card__inner4{
+      background-color: rgba(0,0,0,0.9);
+      color:#fff;
+      position:absolute;
+      top:0;
+      bottom:0;
+      left:0;
+      right:0;
+      z-index:1;
+      opacity:0;
+      padding:2rem 1.3rem 2rem 2rem;
+      transition:all 0.4s ease 0s;
+      }
+      
+    
+      
+      .card__inner3 p{
+      overflow-y:scroll;
+      height:87%;
+      padding-right: 1rem;
+      margin-top:1.5rem;
+      }
+  
+    
+      .card__inner5{
+        background-color: rgba(0,0,0,0.9);
+        color:#fff;
+        position:absolute;
+        top:0;
+        bottom:0;
+        left:0;
+        right:0;
+        z-index:1;
+        opacity:0;
+        padding:2rem 1.3rem 2rem 2rem;
+        transition:all 0.4s ease 0s;
+        }
+        
+    .card__inner6{
+      background-color: rgba(0,0,0,0.9);
+      color:#fff;
+      position:absolute;
+      top:0;
+      bottom:0;
+      left:0;
+      right:0;
+      z-index:1;
+      opacity:0;
+      padding:2rem 1.3rem 2rem 2rem;
+      transition:all 0.4s ease 0s;
+      }
+        
+      .card5:hover .card__inner5{
+        opacity:1;
+        
+        }
+        
+        .card__inner5 p{
+        overflow-y:scroll;
+        height:87%;
+        padding-right: 1rem;
+        margin-top:1.5rem;
+        }
+        .card__inner8{
+          background-color: rgba(0,0,0,0.9);
+          color:#fff;
+          position:absolute;
+          top:0;
+          bottom:0;
+          left:0;
+          right:0;
+          z-index:1;
+          opacity:0;
+          padding:2rem 1.3rem 2rem 2rem;
+          transition:all 0.4s ease 0s;
+          }
+          
+        .card8:hover .card__inner8{
+          opacity:1;
+          
+          }
+          
+          .card__inner8 p{
+          overflow-y:scroll;
+          height:87%;
+          padding-right: 1rem;
+          margin-top:1.5rem;
+          }
+      
+        
+          .card__inner7{
+            background-color: rgba(0,0,0,0.9);
+            color:#fff;
+            position:absolute;
+            top:0;
+            bottom:0;
+            left:0;
+            right:0;
+            z-index:1;
+            opacity:0;
+            padding:2rem 1.3rem 2rem 2rem;
+            transition:all 0.4s ease 0s;
+            }
+            
+          .card7:hover .card__inner7{
+            opacity:1;
+            
+            }
+            .card6:hover .card__inner6{
+              opacity:1;
+              
+              }
+            
+            .card__inner7 p{
+            overflow-y:scroll;
+            height:87%;
+            padding-right: 1rem;
+            margin-top:1.5rem;
+            }
+        
+          

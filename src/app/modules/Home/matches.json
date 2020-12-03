@@ -1,0 +1,48 @@
+[
+    {
+        "name":"Mumbai Indians vs Kolkata Knight Riders",
+        "Venue": "Mumbai",
+        "Score": "176/4 vs 173/5",
+        "Result":"Mumbai won by 4 wickets",
+        "Man_of_the_Match": "Rohit Sharma"
+        
+    },
+    {
+        "name":"Delhi Capitals vs Kings XI Punjab",
+        "Venue": "Mohali",
+        "Score": "160/3 vs 153/5",
+        "Result":"Delhi Capitals won by 4 wickets",
+        "Man_of_the_Match":"Rohit Sharma"
+    },
+    {
+        "name":"Chennai Super Kings vs Sunrises Hyderabad",
+        "Venue": "Hyderabad",
+        "Score": "146/6 vs 143/5",
+        "Result":"Sunrises Hyderabad won by 4 wickets"
+        
+    },
+    {
+        "name":"Rajasthan Royals vs Kolkata Knight Riders",
+        "Venue": "Hyderabad",
+        "Score": "146/6 vs 143/5",
+        "Result":"Mumbai won by 4 wickets"
+        
+    },
+    {
+        "name":"Delhi Daredevils vs Mumbai Indians",
+        "Venue": "Mumbai",
+        "Score": "126/ vs 113/5",
+        "Result":"Delhi won by 4 wickets"
+        
+    },
+    {
+        "name":" vs Kolkata Knight Riders",
+        "Venue": "Hyderabad",
+        "Score": "146/6 vs 143/5",
+        "Result":"Mumbai won by 4 wickets"
+        
+    }
+   
+   
+ 
+]

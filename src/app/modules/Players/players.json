@@ -1,0 +1,39 @@
+[
+    {   
+        "name" : "Mahendra Singh Dhoni",
+         "Age" : "36 years 113 days",
+        "Born" : "July 7, 1981, Ranchi, Bihar (now Jharkhand)",
+        "Role" : "Wicketkeeper batsman",
+        "Bowling " : "Right-arm medium",
+        "Batting " : "Right-hand bat",
+        "image": "../../../assets/dhoni.jpg"
+          },
+    {
+        "name" : "Hardik Pandya",
+         "Age" : "27 years",
+        "Born" : "Oct 11, 1993, Choryasi, Gujarat",
+        "Role" : "Wicketkeeper batsman",
+        "Bowling " : "Right-arm medium",
+        "Batting " : "Right-hand bat",
+        " image ":"Images/hardik.jpg"
+    },
+    {
+        "name" : "Virat Kohli ",
+         "Age" : "32 years 113 days",
+        "Born" : "5 November 1988, Delhi, (now Mumbai)",
+        "Role" : "Captain batsman",
+        "Bowling " : "Right-arm medium",
+        "Batting " : "Right-hand bat",
+        "image":"Images/virat.jpg"
+    }
+
+
+
+
+  
+   
+   
+   
+    
+
+]
